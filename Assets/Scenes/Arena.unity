@@ -156,7 +156,12 @@ MonoBehaviour:
   - m_Name: GhostEnemy
     m_EnemyGO: {fileID: 6884825251917979565, guid: cea991c1c5207cd40a63a9409eae8208,
       type: 3}
-    m_TimeToNextSpawn: 1
+    m_TimeToNextSpawn: 2
+    m_NumberToSpawn: 0
+  - m_Name: BossGhost
+    m_EnemyGO: {fileID: 2373600319716479280, guid: 13f581dfcd5e047f5945a6e5d339de37,
+      type: 3}
+    m_TimeToNextSpawn: 10
     m_NumberToSpawn: 0
 --- !u!4 &28674315
 Transform:
@@ -279,7 +284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: -20}
+  m_AnchoredPosition: {x: 0, y: -20}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &221146521
